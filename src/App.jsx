@@ -2,7 +2,6 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.scss'
 import HomePage from './pages/HomePage'
 import HorseInfo from './pages/HorseInfo'
-import HorsesLocation from './pages/HorsesLocation'
 import Splash from './pages/Splash'
 
 function App() {
@@ -13,7 +12,6 @@ function App() {
         <Route path='/' element={<Splash />} />
         <Route path='/home' element={<HomePage />} />
         <Route path='/horseinfo/:id' element={<HorseInfo />} />
-        <Route path='/horseslocation' element={<HorsesLocation />} />
       </Routes>
     </BrowserRouter>
   )
