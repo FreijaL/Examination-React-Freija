@@ -1,5 +1,5 @@
 {
-  "name": "examination-react-freija",
+  "name": "examination-induviduel",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,18 +9,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "node-sass": "^8.0.0",
+    "@reduxjs/toolkit": "^1.9.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.5",
-    "redux": "^4.2.1",
-    "sass": "^1.62.1"
+    "redux": "^4.2.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^3.1.0",
-    "react-router-dom": "^6.11.1",
+    "node-sass": "^8.0.0",
+    "react-router-dom": "^6.10.0",
+    "sass": "^1.62.1",
     "vite": "^4.2.0"
   }
 }
