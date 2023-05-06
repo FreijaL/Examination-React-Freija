@@ -1,0 +1,41 @@
+@import '../variables';
+
+.card{
+    width: 240px;
+    height: auto;
+    border-radius: $primaryBorderRadius;
+    box-shadow: $primareShadow;
+    @include flex-column;
+    justify-content: space-between;
+    margin: $primaryGap;
+    padding: $primaryGap;
+    &:hover{
+        scale: $scaleHover;
+        box-shadow: $shadowHover;
+    }
+    .img{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: $primaryBorderRadius;
+        margin-bottom: 5px;
+    }
+    .__infoText {
+        width: 150px;
+        @include flex-column;
+        gap: $primaryGap;
+    }
+    .__infoTextSection {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: $primaryTextSize;
+    }
+    .__owner {
+        font-size: $primaryTextSize;
+    }
+    .buttonsContainer {
+        display: flex;
+        gap: .5rem;
+    }
+}

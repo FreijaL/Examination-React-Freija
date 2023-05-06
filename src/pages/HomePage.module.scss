@@ -1,0 +1,25 @@
+@import '../variables';
+
+.main {
+    @include device-size;
+    @include flex-column;
+    .searchContainer {
+        margin: $primaryGap;
+        .__searchBox {
+            border: none;
+            border-bottom: 1px solid black;
+            margin-top: $primaryGap;
+            text-indent: 25px;
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+    .cardContainer {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: $primaryGap;
+    }
+}

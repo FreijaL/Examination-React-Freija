@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "src",
+			"path": ".."
+		},
+		{
+			"name": "public",
+			"path": "../../public"
+		},
+		{
+			"name": "Examination-React-Freija",
+			"path": "../../../cat-fact/Examination-React-Freija"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "name": "Ladoga",
+        "age": 9,
+        "gender": "Mare",
+        "owner": {
+            "name": "Freija Lindkvist",
+            "phone": 701231234,
+            "address": "Viskabro 12, Handsomelake"
+        },
+        "isFriendly": true,
+        "img": "../images/black-horse.webp",
+        "onField": false
+    },
+    {
+        "id": 2,
+        "name": "Ragatanga",
+        "age": 15,
+        "gender": "Mare",
+        "owner": {
+            "name": "Jennie Pettersson",
+            "phone": 701231234,
+            "address": "Viskabro 12, Handsomelake"
+        },
+        "isFriendly": true,
+        "img": "../images/creme-horse.webp",
+        "onField": true
+    },
+    {
+        "id": 3,
+        "name": "Brolle",
+        "age": 8,
+        "gender": "Gelding",
+        "owner": {
+            "name": "Emmy Nordin",
+            "phone": 701231234,
+            "address": "Viskabro 12, Handsomelake"
+        },
+        "isFriendly": true,
+        "img": "../images/white-horse.webp",
+        "onField": true
+    },
+    {
+        "id": 4,
+        "name": "Allan",
+        "age": 17,
+        "gender": "Gelding",
+        "owner": {
+            "name": "David Ohlsson",
+            "phone": 701231234,
+            "address": "Viskabro 12, Handsomelake"
+        },
+        "isFriendly": false,
+        "img": "../images/brown-black-horse.webp",
+        "onField": false
+    },
+    {
+        "id": 5,
+        "name": "Nii",
+        "age": 20,
+        "gender": "Mare",
+        "owner": {
+            "name": "Camilla Hansson",
+            "phone": 701231234,
+            "address": "Viskabro 12, Handsomelake"
+        },
+        "isFriendly": true,
+        "img": "../images/Foal.webp",
+        "onField": true
+    },
+    {
+        "id": 6,
+        "name": "Lucas",
+        "age": 5,
+        "gender": "Stallion",
+        "owner": {
+            "name": "Carl Hedin",
+            "phone": 701231234,
+            "address": "Viskabro 12, Handsomelake"
+        },
+        "isFriendly": true,
+        "img": "../images/stallion-horse.webp",
+        "onField": true
+    },
+    {
+        "id": 7,
+        "name": "Valentino",
+        "age": 16,
+        "gender": "Gelding",
+        "owner": {
+            "name": "Victoria Photo",
+            "phone": 701231234,
+            "address": "Viskabro 12, Handsomelake"
+        },
+        "isFriendly": false,
+        "img": "../images/brown-horse.webp",
+        "onField": false
+    },
+    {
+        "id": 8,
+        "name": "Harpa",
+        "age": 14,
+        "gender": "Mare",
+        "owner": {
+            "name": "Alexandra Hultberg",
+            "phone": 701231234,
+            "address": "Viskabro 12, Handsomelake"
+        },
+        "isFriendly": true,
+        "img": "../images/white-pony.webp",
+        "onField": true
+    }
+]

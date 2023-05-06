@@ -1,0 +1,15 @@
+@import '../variables';
+
+.backButton {
+    width: 6rem;
+    height: 1.5rem;
+    position: absolute;
+    left: 1rem;
+    top: 8rem;
+    border: none;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 5px;
+    &:hover {
+        @include basic-hover;
+    }
+}

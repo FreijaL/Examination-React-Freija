@@ -1,0 +1,11 @@
+@import '../variables';
+
+.button {
+    @include default-button;
+    margin-top: 1rem;
+    &:hover {
+        cursor: pointer;
+        box-shadow: $shadowHover;
+        scale: $scaleHover;
+    }
+}

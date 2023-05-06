@@ -1,0 +1,14 @@
+.splashMain {
+    width: 660px;
+    min-height: 959px;
+    background-color: rgb(137, 117, 101);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    .logo {
+        width: 15rem;
+        height: auto;
+    }
+}

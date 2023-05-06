@@ -1,0 +1,43 @@
+@import '../variables';
+
+.addHorseSection {
+    width: 100%;
+    @include flex-column;
+    gap: $primaryGap;
+    padding: 2rem;
+    background-color: $primaryBeige;
+    .__inputContainer {
+        display: grid;
+        grid-template-columns: 10rem 10rem;
+        gap: .5rem;
+    }
+    .__inputs {
+        font-size: $primaryTextSize;
+        @include flex-column;
+        justify-content: end;
+        label {
+            margin-bottom: 2px;
+        }
+        input {
+            padding: .3rem;
+            text-indent: 5px;
+            border-radius: 5px;
+            border: none;
+            color: $primaryPurple;
+            &:focus {
+                outline: none;
+            }
+        }
+        select {
+            width: 100%;
+            padding: .3rem;
+            border-radius: 5px;
+            border: none;
+            color: $primaryPurple;
+        }
+        &:hover {
+            @include basic-hover;
+        }
+    }
+    
+}

@@ -1,0 +1,7 @@
+@import './variables';
+
+#root {
+  @include device-size;
+  margin: 1rem auto;
+  text-align: center;
+} 

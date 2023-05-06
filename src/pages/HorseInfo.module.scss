@@ -1,0 +1,88 @@
+@import '../variables';
+
+
+.horseInfoContainer {
+    @include device-size;
+    @include flex-column;
+    position: relative;
+    gap: 2rem;
+    .editButton {
+        @include default-button;
+        position: absolute;
+        top: 8rem;
+        right: $primaryGap;
+        @include basic-hover;
+    }
+    .editTextInfo {
+        position: absolute;
+        top: 8rem;
+        left: center;
+        width: 15rem;
+        height: auto;
+        font-size: 12px;
+        background-color: $primaryBeige;
+        padding: $primaryGap;
+        border-radius: $primaryBorderRadius;
+        border: 1px solid black;
+        color: white;
+        z-index: 1;
+    }
+    .horseInfo {
+        width: 80%;
+        height: auto;
+        @include flex-column;
+        margin-top: 2rem;
+        font-size: $primaryTextSize;
+        h1 {
+            font-size: x-large;
+            @include basic-hover;
+        }
+        img {
+            max-width: 100%;
+            max-height: 20rem;
+            margin-top: $primaryGap;
+            border-radius: $primaryBorderRadius;
+            box-shadow: $primareShadow;
+        }
+        .isFriendlyContainer {
+            margin-top: $primaryGap;
+            .friendly {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: $primaryGap;
+            }
+            .isFriendly {
+                @include roundDot;
+                background-color: rgb(67, 157, 67);
+                @include basic-hover;
+            }
+            .notFriendly {
+                @include roundDot;
+                background-color: rgb(207, 70, 70);
+                @include basic-hover;
+            }
+        }
+        .location {
+            width: 16rem;
+        }
+    .buttonContainer {
+        margin: 1rem 0;
+    }
+    .specificInfoContainer {
+            margin: 2rem;
+    }
+    .infoOwnerContainer {
+        width: 100%;
+        height: auto;
+            h5 {
+                margin-bottom: 5px;
+            }
+            .__info {
+                text-align: left;
+                padding: $primaryGap;
+            }
+    }
+    }
+    
+}

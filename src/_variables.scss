@@ -1,0 +1,46 @@
+$primaryBrown: rgb(136, 118, 103);
+$primaryPurple: rgb(93, 70, 93); // ÄNDRA NAMET 
+$primaryBeige: rgb(201, 187, 176);
+
+$primaryTextSize: 14px;
+$primaryBorderRadius: 6px;
+$primareShadow: 4px 4px 15px rgb(136, 118, 103);
+$primareButtonShadow: 4px 4px 8px rgb(121, 109, 98);
+$primaryGap: 1rem;
+
+$shadowHover: 5px 5px 10px rgb(121, 109, 98);
+$scaleHover: 1.05;
+
+@mixin device-size {
+    width: 600px;
+    min-height: 100%;
+    background-color: white;
+}
+
+@mixin basic-hover {
+    cursor: pointer;
+    opacity: .9;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin roundDot {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+}
+
+@mixin default-button {
+    width: 6.3rem;
+    height: auto;
+    padding: .4rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: $primareButtonShadow;
+    background-color: $primaryPurple;
+    color: white;
+} 
