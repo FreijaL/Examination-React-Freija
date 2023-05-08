@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { Navigate, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import style from './Splash.module.scss'
 
 function Splash() {
@@ -14,7 +14,7 @@ function Splash() {
 
     return ( 
         <main className={style.splashMain}>
-            <img className={style.logo} src="../../public/svg/Arabian-Horse-Silhouette.svg" />
+            <img className={style.logo} src="/svg/Arabian-Horse-Silhouette.svg" />
             <h1>Welcome to<br/>Harmony Horse</h1>
         </main>
      );
